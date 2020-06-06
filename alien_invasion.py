@@ -9,7 +9,7 @@ import game_functions as gf
 from pygame.sprite import Group
 
 def run_game():
-     # Initialize game and create a screen object.
+     # Initialize game , create a screen object.
      pygame.init()
      ai_settings = Settings()
      #screen = pygame.display.set_mode((ai_settings.screen_height, ai_settings.screen_width))
@@ -19,7 +19,7 @@ def run_game():
      bullets = Group()
 
 
-       # Start the main loop for the game.
+       # Start the main loop for the game
 
      while True:	 
        gf.check_events(ai_settings,screen,ship,bullets)
